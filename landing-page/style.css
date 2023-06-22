@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0 96px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+
+}
+
+header {
+    display: flex;
+    height: 400px;
+    padding: 64px;
+    gap: 40px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-weight: 900;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 32px;
+    gap: 16px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+
+}
+
+.img-content {
+    height: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    padding: 6px 16px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 15%;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.information {
+    height: 300px;
+    padding: 32px;
+}
+
+.info-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px 32px;
+    gap: 16px;
+}
+
+.info-child div {
+    width: 125px;
+    height: 125px;
+}
+
+.blue-box {
+    border: 2px solid #3882f6;
+    border-radius: 15%;
+}
+
+.quotes {
+    height: 300px;
+    width: auto;
+    background-color: red;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background-color: azure;
+    
+}
+
+.quote-box p {
+    margin-left: auto;
+}
