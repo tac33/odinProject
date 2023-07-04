@@ -4,7 +4,11 @@
     padding: 0;
 }
 
-/* Section */
+body {
+    background-color: lavender;
+}
+
+/* Nav Section */
 nav {
     height: 75px;
     display: flex;
@@ -17,68 +21,104 @@ a {
     color: black;
 }
 
-.logo {
+.logo-container {
     margin-right: auto;
-    font-size: 28px;
-    font-weight: 700;
 }
 
-/* Section */
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: lavender;
+    display: flex;
+    gap: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: white;
+}
+
+/* Header Section */
 header {
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 48px;
-    border: 2px solid black;
     text-shadow: -2px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
 }
 
 .rock {
     color: salmon;
+    text-align: center;
 }
 
 .paper {
     color: lightblue;
+    text-align: center;
 }
 
 .scissors {
     color: yellow;
+    text-align: center;
 }
 
-/* Section */
+/* Action Section */
 .main {
     display: flex;
     justify-content: center;
-    border: 2px solid black;
     height: 200px;
 }
 
 .computer-choice {
     display: flex;
-    border: 2px solid salmon;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     width: 200px;
 }
 
 .action-area {
-    border: 2px solid purple;
     height: 200px;
-    width: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .player-choice {
-    border: 2px solid red;
     height: 200px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Section */
+#wins,
+#losses {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#wins {
+    background-color: lightgreen;
+}
+
+#losses {
+    background-color: lightsalmon;
+}
+
+#symbols {
+    font-size: 48px;
+}
+
+/* Card Section */
 .card-choice {
     display: flex;
     height: 400px;
     justify-content: center;
-    border: 2px solid black;
 }
 
 .player-cards{
@@ -92,7 +132,7 @@ header {
 .card {
     width: 225px;
     height: 275px;
-    border: 2px solid lightblue;
+    border: 2px solid black;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -110,6 +150,11 @@ header {
 img {
     max-width: 100%;
     max-height: 100%;
+    border-radius: 12px;
+}
+
+button {
+    background-color: white;
 }
 
 .card-img {
@@ -119,11 +164,58 @@ img {
     padding-top: 16px;
 }
 
-/* Section */
+/* footer Section */
 .footie {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     font-size: 20px;
+    font-style: italic;
+}
+
+
+/* Modal Section */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.modal-content {
+    margin: 200px auto;
+    padding: 20px;
+    background-color: yellow;
+    width: 60%;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.text {
+    font-size: 32px;
+    padding: 24px;
+    text-align: center;
+}
+
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.new-game {
+    display: flex;
+    justify-content: center;
+}
+
+.new-game button {
+    padding: 8px;
+    border-radius: 12px;
 }
