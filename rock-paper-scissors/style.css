@@ -90,9 +90,6 @@ header {
 .player-choice {
     height: 200px;
     width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #wins,

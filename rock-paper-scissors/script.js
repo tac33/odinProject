@@ -92,10 +92,15 @@ function newGame() {
     const losses = document.querySelector('#losses');
     const symbol = document.querySelector('#symbols');
     const newgame = document.querySelector('.modal');
+    const compImg = document.querySelector('#comp-Img');
+    const playImg = document.querySelector('#play-Img');
 
     symbol.textContent = '';
     wins.textContent = 0;
     losses.textContent = 0;
+    playImg.setAttribute('src',``)
+    compImg.setAttribute('src',``)
+
 
     newgame.style.display = "none";
 

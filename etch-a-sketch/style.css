@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lavender;
+}
+
+/* Nav Section */
+nav {
+    height: 75px;
+    display: flex;
+    padding: 0px 16px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+button {
+    width: 125px;
+    height: 25px;
+    border-radius: 15px;
+    margin: 5px 0;
+}
+
+.logo-container {
+    margin-right: auto;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: lavender;
+    display: flex;
+    gap: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: white;
+}
+
+.main {
+    border: 2px solid blue;
+    display: flex;
+}
+
+.main-config {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    width: 25%;
+}
+
+.main-action {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+
+.button-config {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-container {
+    display: flex;
+    border: 2px solid yellow;
+    height: 500px;
+    width: 500px;
+}

@@ -1,0 +1,20 @@
+body {
+    font-family: monospace, 'Times New Roman', serif;
+    background-color: azure;
+}
+
+.main {
+    color: lightsalmon;
+    text-align: center;
+}
+
+.tags {
+    color: tomato;
+    font-weight: 400;
+    padding-left: 15%;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 15%;
+}
