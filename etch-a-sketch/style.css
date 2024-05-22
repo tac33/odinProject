@@ -79,8 +79,9 @@ button {
 }
 
 .grid-container {
-    display: flex;
+    display: block;
+    overflow: hidden;
     border: 2px solid yellow;
-    height: 500px;
+    height: auto;
     width: 500px;
 }
