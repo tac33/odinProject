@@ -26,18 +26,21 @@
             <section class="main-config">
                 <div class="button-config">
                     <div>
-                        <input type="text" name="" id="">
-                        <input type="text" name="" id="">
-                        <button type="">Submit</button>
+                        <label for="pickColor"><strong>Select a Color:</strong></label>
+                        <input type="color" id="pickColor" value="#0000ff">
+                    </div>
+                    <div>
+                        <input type="range" min="1" max="100" value="16" id="boxSize" value="100">
+                        <p id="demo"></p>
                     </div>
                     <div>Choose a Color</div>
-                    <button>Eraser</button>
-                    <button>Clear</button>
+                    <button id="eraser">Eraser</button>
+                    <button id="clear">Clear</button>
                 </div>
             </section>
         
             <section class="main-action">
-                <div class="grid-container"></div>
+                <div class="grid-container" id="grid-container"></div>
             </section>
         </div>
     </div>

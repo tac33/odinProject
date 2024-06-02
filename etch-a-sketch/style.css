@@ -54,7 +54,6 @@ button {
 }
 
 .main {
-    border: 2px solid blue;
     display: flex;
 }
 
@@ -62,7 +61,6 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: red;
     width: 25%;
 }
 
@@ -81,7 +79,6 @@ button {
 .grid-container {
     display: block;
     overflow: hidden;
-    border: 2px solid yellow;
-    height: auto;
-    width: 500px;
+    height: 800px;
+    width: 800px;
 }
