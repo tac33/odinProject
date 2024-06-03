@@ -55,22 +55,31 @@ button {
 
 .main {
     display: flex;
+    border: 2px solid red;
+    justify-content: space-around;
 }
 
 .main-config {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25%;
+    border: green 2px solid;
+    width: 30%;
 }
 
 .main-action {
     display: flex;
-    width: 75%;
+    width: 70%;
     justify-content: center;
+    border: purple 2px solid;
 }
 
 .button-config {
+    justify-content: center;
+    border: yellow 2px solid;
+}
+
+.color-container, .button-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,6 +88,7 @@ button {
 .grid-container {
     display: block;
     overflow: hidden;
-    height: 800px;
-    width: 800px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
 }
